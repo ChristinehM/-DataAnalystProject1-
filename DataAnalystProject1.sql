@@ -1,3 +1,7 @@
+/*
+Covid-19 Data Exploration 
+Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+*/
 select * from [DataAnalystProject1]..['COVID-19 Deaths'] 
 where [continent] is not null
 order by 3,4
